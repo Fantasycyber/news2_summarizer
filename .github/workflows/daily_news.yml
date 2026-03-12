@@ -3,7 +3,7 @@ name: 📰 Daily News Bot
 on:
   schedule:
     # 7:30 AM Bangkok time = 00:30 UTC
-    - cron: "30 0 * * *"
+    - cron: "30 3 * * *"
 
   # รันได้ด้วยตนเองจาก GitHub Actions UI
   workflow_dispatch:
